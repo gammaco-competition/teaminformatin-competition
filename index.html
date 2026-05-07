@@ -47,7 +47,7 @@
 
     <div id="loginSection" class="container-fluid px-0">
       <div class="mb-3">
-        <label class="form-label">Your Email (อีเมลของคุณ)</label>
+        <label class="form-label">Your Email (อีเมลของท่าน)</label>
         <input type="email" id="email" class="form-control form-control-lg" placeholder="example@mail.com">
       </div>
       <button onclick="login()" id="loginBtn" class="btn btn-primary w-100">Confirm</button>
@@ -185,7 +185,7 @@
                         ${isCancel ? `<div class="text-danger mt-2" style="font-size: 0.8rem;"><strong>* ไม่สามารถแก้ไขได้ เนื่องจากทีมถูกยกเลิก</strong></div>` : ''}
                     </div>
                 </div>
-                ${createInput("Events Name", true, "col-md-8")} 
+                ${createInput("Events Name", true, "col-md-12")} 
                 ${createInput("Team ID", true, "col-md-4")}
                 ${createInput("Province", true, "col-md-6")}
                 ${createInput("Category", true, "col-md-6")}
